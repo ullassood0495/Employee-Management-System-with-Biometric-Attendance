@@ -6,7 +6,7 @@ Employee Management System is used to keep track of your company’s or field’
 ## Biometric Details
 As the system has Biometric support, it uses a simple microcontroller enables finger print module for attendance marking. The microcontroller used is an Arduino uno r3 connected with a r305 finger print module. The Arduino communicates with the application using serial connection between the system and Arduino. The module is only activated when it is needed. The following diagram shows the interfacing of Arduino with r305 module. 
  
-<img src="/interface.png" alt="FingerPrint Interface"/>
+<img src="/interface.PNG" alt="FingerPrint Interface"/>
 
 
 Description 
