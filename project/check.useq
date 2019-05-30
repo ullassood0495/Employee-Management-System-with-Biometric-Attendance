@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.2.3" icons="true" generate-combined-fragments="true">  
+  <object id="1" language="java" name="view.MainWindow" project="project" file="/project/src/view/MainWindow.java" 
+    binary="false" label="mainWindow" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="292" y="0"/>    
+    <execution id="2">      
+      <position height="72" width="0" x="0" y="160"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="java.awt.event.ActionListener" project="project" 
+    file="C:/Program Files/Java/jre1.8.0_201/lib/rt.jar" binary="true" label="actionListener" type="interface" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="24" width="0" x="0" y="184"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="72" width="0" x="0" y="255"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="common.StaffMember" project="project" file="/project/src/common/StaffMember.java" 
+    binary="false" label="staffMember1" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="24" width="0" x="0" y="279"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="actionPerformed(java.awt.event.ActionEvent):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="validateCredentials():boolean" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>
+</sequence-diagram>

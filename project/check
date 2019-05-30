@@ -1,0 +1,10 @@
+StaffMember() - common.StaffMember
+	Admin(String, String, Connection) - common.Admin
+		actionPerformed(ActionEvent) : void - view.MainWindow.createEvents().new ActionListener() {...}
+			[constructor] new ActionListener() {...} - view.MainWindow.createEvents() 
+				createEvents() : void - view.MainWindow
+			[callers]
+		actionPerformed(ActionEvent) : void - view.MainWindow.createEvents().new ActionListener() {...}
+	Employee() - common.Employee
+	Employee(int, Connection) - common.Employee
+	Employee(String, String, Connection) - common.Employee
