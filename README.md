@@ -13,4 +13,4 @@ Description
 - The red wire is the power supply to the r305 module of 5V.
 - The black wire is the ground wire.
 - The Blue wire represents RX pin of the module and receives data from Arduino via it.
-- The yellow wire represents the TX pin of the module and sends data to the Arduino via it. 
+- The yellow wire represents the TX pin of the module and sends data to the via Arduino it. 
